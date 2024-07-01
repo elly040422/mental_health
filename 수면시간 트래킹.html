@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>정신건강4-수면시간 트래킹</title>
+    <style>
+        h1{
+            font-size:40px;
+            text-align: center;
+            margin:0;
+            padding:20px;
+        }
+        #left{
+            border-right:2px solid rgb(211, 167, 245);
+            width: 400px;
+            margin:0;
+            font-size: 20px;
+            line-height: 100px;
+            padding-left: 50px;
+        }
+        a:link{color:purple;}
+        a:visited{color:gray;}
+        input{
+            margin-left:1350px;
+            margin-bottom: 3px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 510px 1fr;
+            height:100vh;
+            border-top: 2px solid rgb(211, 167, 245);
+        }
+        #right{
+            margin: 0;
+            font-size:20px;
+            padding: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        body{
+            border:2px solid rgb(211, 167, 245) ;
+        }
+    </style>
+    <meta charset="utf -8">
+    <script src="colors.js">      
+    </script>
+</head>
+<body>
+    <h1><a href="정신건강.html">정신건강</a></h1>
+    <input id="night_day"type="button" value ="night" onclick="
+            nightDayHandler(this)">
+    <div id="grid">
+        <grid id="left">
+            <h2>4. 수면시간 트래킹</h2>
+                - <a href="https://support.apple.com/ko-kr/HT211685"
+                target="_blank" title="수면시간 트래킹 설정_애플">수면시간 트래킹 ios ver</a><br>
+                - <a href="https://springit.tistory.com/302#google_vignette"
+                target="_blank" title="수면시간 트래킹 설정_애플">수면시간 트래킹 android ver</a><br>
+                - <a href="https://blog.naver.com/with_msip/222082643232"
+                target="_blank" title="수면 앱과 웨어러블 기기">수면 트래킹 관련 앱과 웨어러블 기기</a>
+        </grid>
+        <grid id="right">
+            <h3>수면시간 트래킹 페이지_노션</h3>
+            <a href="https://sticky-bathtub-09b.notion.site/63a51f9791a5498d95dc09b592b71043?pvs=4"
+            target="_blank" title="수면시간 트래킹 노션">수면시간 트래킹_노션</a>
+            <h3>수면시간 트래킹 앱 추천</h3>
+            <a href="https://www.gazilab.co/wellness-curation/contents/PZJjFN79S3Bysd7WWYfG/"
+            target="_blank" title="앱 추천">수면시간 트래킹 앱 추천</a>
+        </grid>
+    </div>
+</body>

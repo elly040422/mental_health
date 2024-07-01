@@ -1,0 +1,73 @@
+<!doctype mentalhealth>
+<html>
+<head>
+    <title>Mental health</title>
+    <style>
+        h1{
+            font-size:40px;
+            text-align: center;
+            margin:0;
+            padding:20px;
+        }
+        #left{
+            border-right:2px solid rgb(211, 167, 245);
+            width: 300px;
+            margin:0;
+            font-size:15px;
+            line-height: 100px;
+            padding-left: 100px;
+        }
+        a:link{color:purple;}
+        a:visited{color:gray;}
+        h3{
+            margin:0;
+        }
+        input{
+            margin-left:1350px;
+            margin-bottom: 3px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 410px 1fr;
+            height: 944px;
+            border-top:2px solid rgb(211, 167, 245);
+        }
+        #right{
+            margin: 0;
+            font-size:20px;
+            padding: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        body{
+            border:2px solid rgb(211, 167, 245) ;
+        }
+    </style>
+    <meta charset="utf -8">
+    <script src="colors.js">      
+    </script>
+</head>
+<body>
+    <h1><a href="감정 일기.html">정신건강</a></h1>
+    <input id="night_day"type="button" value ="night" onclick="
+        nightDayHandler(this)">    
+    <div id="grid">
+        <div id="left">
+            <ol>
+                <h2><li><a href="감정 일기.html">감정 일기</a></li></h2>
+                <h2><li><a href="모닝 루틴.html">모닝 루틴</a></li></h2>
+                <h2><li><a href="나이트 루틴.html">나이트 루틴</a></li></h2>
+                <h2><li><a href="수면시간 트래킹.html">수면시간 트래킹</a></li></h2>
+                <h2><li><a href="약 섭취 트래킹.html">약 섭취 트래킹</a></li></h2>
+            </ol>
+        </div>
+        <div id="right">
+            <h3>건강한 정신을 가지는 방법</h3>
+            <a href="https://m.blog.naver.com/rhkrtjdaks1/221600690154"
+            target="_blank" title="정신건강의 의미">정신건강의 의미</a>
+            <h3>정신건강론 : 생물학적 입장</h3>
+            <a href="https://m.blog.naver.com/PostView.naver?blogId=rhkrtjdaks1&logNo=221628369367&fromRecommendationType=category&targetRecommendationDetailCode=1000"
+            target="_blank" title="5번과 연관">정신건강론_생물학적 입장</a>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <title>정신건강1-감정 일기</title>
+    <style>
+        h1{
+            font-size:40px;
+            text-align: center;
+            margin:0;
+            padding:20px;
+        }
+        #left{
+            border-right:2px solid rgb(211, 167, 245);
+            width: 400px;
+            margin:0;
+            font-size:20px;
+            line-height: 75px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        #right{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 100px;
+        }
+        h2{
+            margin:0;
+        }
+        a:link{color:purple;}
+        a:visited{color:gray;}
+        #grid{
+            display:grid;
+            grid-template-columns: 440px 1fr;
+            height:100vh;
+            border-top:2px solid rgb(211, 167, 245);
+        }
+        h3{
+            margin:0;
+        }
+        input{
+            margin-left:1350px;
+            margin-bottom: 3px;
+        }
+        body{
+            border:2px solid rgb(211, 167, 245);
+        }
+    </style>
+    <meta charset="utf -8">
+    <script src="colors.js">      
+    </script>
+</head>
+<body>
+    <h1><a href="정신건강.html">정신건강</a></h1>
+    <input id="night_day"type="button" value="night" onclick="
+    nightDayHandler(this)">
+    <div id="grid">
+        <grid id="left">
+            <h2>1. 감정 일기</h2>
+                - 감정에 이름을 붙였을 때의 효과<br>
+            - <a href="https://brunch.co.kr/@jayfee/91"
+            target="_blank" title="감정일기의 효과">감정일기</a>를 쓰면 좋은 이유<br>
+            - <a href="https://brunch.co.kr/@foodbug/333"
+            target="_blank" title="감정일기를 쓰는 방법"> 감정일기를 쓰는 방법 </a>
+        </grid>
+        <grid id="right">
+            <h3>감정 일기 작성</h3>
+            <a href="https://sticky-bathtub-09b.notion.site/86dd99b2fb99443aa69ffbb47ad6114e?pvs=4" target="_blank" 
+            title="감정 일기 작성_노션">감정 일기 작성</a><br>
+            <h3>감정 일기 형식 예시</h3>
+            <img src="감정일기.png" width="50%" height="auto">
+        </grid>
+    </div>
+</body>    

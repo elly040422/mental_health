@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>정신건강5-약 섭취 트래킹</title>
+    <style>
+        h1{
+            font-size:40px;
+            text-align: center;
+            margin:0;
+            padding:20px;
+        }
+        #left{
+            width: 300px;
+            font-size: 20px;
+            line-height: 75px;
+            padding-left: 100px;
+        }
+        #right{
+            border-left:2px solid rgb(211, 167, 245);
+            margin:0;
+            font-size:20px;
+            padding: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        input{
+            margin-left: 1350px;
+            margin-bottom: 3px;
+        }
+
+        h2{
+            margin:0;
+        }
+        p{
+            padding-bottom:5px;
+            margin:0;
+        }
+        #grid{
+            border-top:2px solid rgb(211, 167, 245);
+            display:grid;
+            height: 100vh;
+            grid-template-columns: 410px 1fr;
+        }
+        a:link{color:purple;}
+        a:visited{color:gray;}
+        body{
+            border:2px solid rgb(211, 167, 245);
+        }
+    </style>
+    <meta charset="utf -8">
+    <script src="colors.js">      
+    </script>
+</head>
+<body>
+    <h1><a href="정신건강.html">정신건강</a></h1>
+    <input id="night_day"type="button" value ="night" onclick="
+           nightDayHandler(this)">
+    <div id="grid">
+        <grid id="left">
+            <h2>5. 약 섭취 트래킹</h2>
+                <a href="https://blog.naver.com/gogleclinic/220723600257"
+                target="_blank" title="규칙적인 약물 섭취가 중요한 이유">규칙적인 약물 섭취</a>
+        </grid>
+        <grid id="right">
+            <h3>약 섭취 트래킹 사이트</h3>
+            - <a href="https://sticky-bathtub-09b.notion.site/ae60c32bd40145adb8a441548948e058?pvs=4"
+            target="_blank" title="약 섭취_노션">약 섭취 트래킹</a>
+            <h3>약 섭취에 대한 팁</h3>
+            - <a href="https://brunch.co.kr/@hangyeomseo/651"
+            target="_blank" title="약 섭취에 대한 팁">약 섭취 팁</a>
+        </grid>
+    </div>
+</body>
